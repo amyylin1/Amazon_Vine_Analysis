@@ -17,3 +17,5 @@ This analysis aims to utilize pySpark, AWS, and PostgreSQL to extract, transform
 
 ### Summary
 There is no positivity bias for reviews in the Vine program.  Only 0.72% of 5-star reviews was Vine reviews, and 99.29% of 5-star reviews was non-Vine reviews.  People who give good reviews truly liked their purchase. 
+
+Additional analysis:  The low percentage of 5-star Vine reviews could be due to the low percentage of Vine users.  Instead of calculating how many 5-star reviews were Vine or not, it is better to calculate how many Vine reviews were 5-star or not.  
